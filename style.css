@@ -236,7 +236,6 @@ body.dark .nav-link:hover {
     color: #0055cc;
 }
 
-/* Dark mode support */
 body.dark .contact-social a {
     color: #66aaff;
 }
@@ -263,7 +262,6 @@ body.dark .contact-social a {
     border-radius: 10px;
 }
 
-/* Mobile Responsive */
 @media (max-width: 768px) {
     .contact-wrapper {
         flex-direction: column;
@@ -284,7 +282,6 @@ body.dark .contact-social a {
     background-color: #fff;
 }
 
-/* Dark mode support */
 body.dark .footer {
     background-color: #121212;
     border-color: #333;
