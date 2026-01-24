@@ -30,10 +30,10 @@ The website showcases my background, projects, achievements, and contact informa
 ---
 
 ##  Project Structure
-├── index.html
-├── style.css
-├── script.js
-├── assets
+├── index.html <br>
+├── style.css <br>
+├── script.js <br>
+├── assets <br>
 │ └── profile.jpg
 
 ---
@@ -41,7 +41,7 @@ The website showcases my background, projects, achievements, and contact informa
 ##  Live Demo
 
 🔗 **GitHub Pages:**  
-https://github.com/Patil-Shital-9236/PORTFOLIO.git
+[https://github.com/Patil-Shital-9236/PORTFOLIO.git](https://patil-shital-9236.github.io/PORTFOLIO/)
 
 ---
 
