@@ -40,21 +40,18 @@ form.addEventListener("submit", function (e) {
   const name = document.getElementById("name").value.trim();
   const email = document.getElementById("email").value.trim();
 
-  // Name validation (extra safety)
   const nameRegex = /^[A-Za-z\s]+$/;
   if (!nameRegex.test(name)) {
     alert("Name should contain only letters.");
     return;
   }
-
-  // Email validation (gmail focused but not restricted)
+    
   const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
   if (!emailRegex.test(email)) {
     alert("Please enter a valid email address.");
     return;
   }
 
-  // Success
   successMsg.style.display = "block";
   form.reset();
 });
