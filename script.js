@@ -10,6 +10,7 @@ if (savedTheme === "dark") {
     themeToggleBtn.textContent = "🌙";
 }
 
+
 themeToggleBtn.addEventListener("click", () => {
     body.classList.toggle("dark");
 
